@@ -5,8 +5,10 @@ This is the course repository for [Exploring Digital Humanities: A hands-on intr
 ## Software and Programming Languages Used in the Course
 
 This is a list of programmes and programming languages used in the course. If you bring your own computer, please make sure that they are up and running. We will go through the installation of the [Go Progamming Language](https://golang.org) on the first day in class, since it is a bit more complicated. That said, some of the scripts, you will be able to run in the [Go Playground](https://play.golang.org), which does not require any installation.  
-With one exception all tools and programmes run on all major operating systems.  
-If you have problems with the installation of any of this, don't worry. We will have time on Day 1 to get everything up and running. We won't use programming languages before Day 2. I am aware that the whole list looks a bit daunting, but installation will be quicker than it looks. If you don't want to go through the whole list, please try and install at least R, RStudio, OpenRefine, and a text editor of your choice.
+
+With one exception all tools and programmes run on all major operating systems. If you have problems with the installation of any of this, don't worry. We will have time on Day 1 to get everything up and running. We won't use programming languages before Day 2. I am aware that the whole list looks a bit daunting, but installation will be quicker than it looks.  
+
+If you don't want to go through the whole list, please try and install at least R, RStudio, OpenRefine, and a text editor of your choice.
 
 ### Programming Languages
 - [Go](https://golang.org), version 1.11
