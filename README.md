@@ -17,7 +17,7 @@ If you have problems with the installation of any of this, don't worry. We will 
 - A good text editor. I recommend [Visual Studio Code](https://code.visualstudio.com)
 - [OpenRefine](http://openrefine.org); used to be GoogleRefine. It's a great GUI for working with messy data.
 - [Google Fusion](https://en.wikipedia.org/wiki/Google_Fusion_Tables); you don't need to install it, but you need a Google account.
-- [ToPān](https://github.com/ThomasK81/ToPan)l we will install ToPān together in class.
+- [ToPān](https://github.com/ThomasK81/ToPan); we will install ToPān together in class.
 - [Imagemagick](https://imagemagick.org); open software that runs on all major systems.
 - [Gephi](https://gephi.org); open software that runs on all major systems.
 - [Tableau Public](https://public.tableau.com); commercial, but free software (does not work on Linux). Is only optional for this course.
