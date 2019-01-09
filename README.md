@@ -29,12 +29,14 @@ While you can use a browser of your choice, I found that [Firefox](https://www.m
 
 ### Go Libraries
 If you want you can install all necessary Go libraries beforehand. However, if you have not done so, we will install them together in the course as we go along. You can install them from your Terminal / Commandline with `go get [package_name]`, e.g. `go get github.com/gorilla/mux`.  
+
 We will use the following external Go libraries (there might be more):
 - `github.com/ThomasK81/gocite`
 - `github.com/gorilla/mux`
 
 ### R Libraries
-R has a lot of handy libraries for data analysis and restructuring. We will use a good number of them, but that also means that we have to write fewer functions ourselves. If you want you can install all necessary R libraries beforehand. However, if you have not done so, we will install them together in the course as we go along. You can install them from inside an R Terminal with `install.packages("[package_name]")`, e.g. `install.packages("data.table")`. 
+R has a lot of handy libraries for data analysis and restructuring. We will use a good number of them, but that also means that we have to write fewer functions ourselves. If you want you can install all necessary R libraries beforehand. However, if you have not done so, we will install them together in the course as we go along. You can install them from inside an R Terminal with `install.packages("[package_name]")`, e.g. `install.packages("data.table")`.  
+
 We will definitely use the following R libraries (there might be more):
 - `tidyverse`
 - `leaflet`
