@@ -21,7 +21,7 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 
 #### Schedule
 
-| Mon, Jan 27 | Theme: Digital Humanities & Data Retrieval |||
+| Mon, Jan 27 | Theme: Digital Humanities & Data Retrieval ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
 | 9:00-09:15 | - | Overview||
@@ -38,7 +38,7 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 | 16:30-17:00 | Extra | [Software Installation](https://github.com/ThomasK81/ExploringDigitalHumanities/blob/master/README.md) (as much as possible)| Making sure everything is installed for Day 2|
 |||***End of Day 1***||
 
-| Tue, Jan 28 | Theme: Linked Open Data & its Application |||
+| Tue, Jan 28 | Theme: Linked Open Data & its Application ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
 |09:00-10:30| L | Overview of Programming Languages in DH ||
@@ -51,20 +51,20 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 |15:00-17:00| S | Building your own Microservice | Needs Go installed |
 |||***End of Day 2***||
 
-| Wed, Jan 29 | Theme: User Experience & Data Curation |||
+| Wed, Jan 29 | Theme: User Experience & Data Curation ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
 |09:00-17:00|  | Details follow ||
 |||***End of Day 3***||
 |17:30-19:30| Public Lecture (Stout Research Centre, WR12) |[Enabling Digital Scholarship: Tools, Methods, and Infrastructure for Participatory, Interdisciplinary, and Inclusive Research](https://www.victoria.ac.nz/events/2019/01/insights-into-digital-humanities)| optional |
 
-| Thu, Jan 30 | Theme: Human Languages & Visualisations |||
+| Thu, Jan 30 | Theme: Human Languages & Visualisations ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
 |09:00-17:00|  | Details follow ||
 |||***End of Day 4***||
 
-| Fri, Jan 31 | Theme: Relationships & Maps |||
+| Fri, Jan 31 | Theme: Relationships & Maps ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
 |09:00-17:00|  | Details follow ||
