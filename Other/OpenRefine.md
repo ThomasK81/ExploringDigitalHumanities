@@ -7,8 +7,11 @@ http://api.digitalnz.org/v3/records.json?api_key=[your_key]&text=cartoon+rugby&a
 #### Some Handy GREL
 
 - value
-- rowIndex  
+- rowIndex
 - "http://api.digitalnz.org/v3/records/" + value + ".json?api_key=[your_key]&fields=description"  
+- value.parseJson().get("record").get("description")
+- value.parseHtml().htmlText()
 - value.replace('{"record":{"description":"', "")  
 - value.partition(/[0-9]{1,2}\s\S+\s\d{4}/)[1].replace(",", "")  
+- if(value.toLowercase().contains("christchurch"), 1, 0)
 
