@@ -28,13 +28,13 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 | 9:15-09:45 | - | Introduction by Participants||
 | 9:45-11:05 | L | [Everything you wanted to know about DH](https://docs.google.com/presentation/d/1ZWRP7_KmG3cL9N2fQIV0w41Wkci0UmYulk8MSspbvGY/edit?usp=sharing) ||
 |||***Short Break (20min)***|
-| 11:35-12:30 | L | [Combining qualitative and quantitative research methods](https://docs.google.com/presentation/d/1uEw4T0ixOY8QtYoYv_7tNM-jz4kjgmbViB9pLRnMB8I/edit?usp=sharing) ||
+| 11:35-13:00 | L | [Combining qualitative and quantitative research methods](https://docs.google.com/presentation/d/1uEw4T0ixOY8QtYoYv_7tNM-jz4kjgmbViB9pLRnMB8I/edit?usp=sharing) ||
 |||***Lunch Break (40min)***||
-| 13:10-13:40| L | [Data formats and APIs](https://docs.google.com/presentation/d/1WjWkjhZaAIyqjcc6NJDtcOiIu87shvD2iGjaLE3Ylkg/edit?usp=sharing) | Install [Open Refine](http://openrefine.org/download.html)|
-| 13:40-14:40 | S | Use of APIs and Data Cleaning ||
-| 14:40-15:10 | S | Basic Visualisations (Google Fusion / Tableau Public)
+| 13:40-14:00| L | [Data formats and APIs](https://docs.google.com/presentation/d/1WjWkjhZaAIyqjcc6NJDtcOiIu87shvD2iGjaLE3Ylkg/edit?usp=sharing) | Install [Open Refine](http://openrefine.org/download.html)|
+| 14:00-15:00 | S | Use of APIs and Data Cleaning ||
+| 15:00-15:30 | S | Basic Visualisations (Google Fusion / Tableau Public)
 |||***Short Break (20min)***||
-| 15:30-16:30 | S/L | [How to Git](https://docs.google.com/presentation/d/1bCdQVbe9Yo5u_kwF-D9_ltx3GUy9Ify9fP0s8mtSAS0/edit?usp=sharing) | Helpful [guide](http://rogerdudler.github.io/git-guide/)|
+| 15:50-16:30 | S/L | [How to Git](https://docs.google.com/presentation/d/1bCdQVbe9Yo5u_kwF-D9_ltx3GUy9Ify9fP0s8mtSAS0/edit?usp=sharing) | Helpful [guide](http://rogerdudler.github.io/git-guide/)|
 | 16:30-17:00 | Extra | [Software Installation](https://github.com/ThomasK81/ExploringDigitalHumanities/blob/master/README.md) (as much as possible)| Making sure everything is installed for Day 2|
 |||***End of Day 1***||
 
