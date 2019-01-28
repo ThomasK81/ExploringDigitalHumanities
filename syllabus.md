@@ -42,7 +42,7 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 | 10:30-11:00 | S/L | [How to Git](https://docs.google.com/presentation/d/1bCdQVbe9Yo5u_kwF-D9_ltx3GUy9Ify9fP0s8mtSAS0/edit?usp=sharing) | Helpful [guide](http://rogerdudler.github.io/git-guide/)|
 |||***Short Break (30min)***||
 |11:30-12:15| L | [Overview of Programming Languages in DH](https://docs.google.com/presentation/d/178heRiFjxd_iOKnqa9y2U1AMnnvKCJgyyyRJtcctcyg/edit?usp=sharing) ||
-| 12:15-12:30 | Extra | [Software Installation](https://github.com/ThomasK81/ExploringDigitalHumanities/blob/master/README.md) (as much as possible)| Making sure everything is installed for Day 2|
+| 12:15-12:30 | Extra | [Software Installation](https://github.com/ThomasK81/ExploringDigitalHumanities/blob/master/README.md) (as much as possible)| Making sure everything is installed for Day 3|
 |||***Lunch Break (45min)***|
 |13:15-14:30| L | [Linked Data & Microservices in the Humanities](https://docs.google.com/presentation/d/1feFHhix7zTk9EZVZ_RZ1LE9TVUR4GdVw7JeOh7Iy1ZQ/edit?usp=sharing) ||
 |14:30-15:30| S | Hands on Introduction to Basic Data Structures in R and Go | Needs R installed |
