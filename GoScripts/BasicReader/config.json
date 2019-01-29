@@ -1,0 +1,5 @@
+{
+"host": "http://localhost:7337",
+"port": ":7337",
+"cex_source": "http://localhost:7337/cex/million.cex"
+}

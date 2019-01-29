@@ -37,14 +37,13 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 | Tue, Jan 29 | Theme: Linked Open Data & its Application ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
-| 9:00-9:45 | S | More Data Cleaning ||
-| 9:45-10:30 | S | Basic Visualisations (Google Fusion / Tableau Public)
-| 10:30-11:00 | S/L | [How to Git](https://docs.google.com/presentation/d/1bCdQVbe9Yo5u_kwF-D9_ltx3GUy9Ify9fP0s8mtSAS0/edit?usp=sharing) | Helpful [guide](http://rogerdudler.github.io/git-guide/)|
+| 9:00-10:30 | S | More Data Cleaning ||
+| 10:30-11:00 | S | Basic Visualisations (Google Fusion / Tableau Public)|
 |||***Short Break (30min)***||
-|11:30-12:15| L | [Overview of Programming Languages in DH](https://docs.google.com/presentation/d/178heRiFjxd_iOKnqa9y2U1AMnnvKCJgyyyRJtcctcyg/edit?usp=sharing) ||
-| 12:15-12:30 | Extra | [Software Installation](https://github.com/ThomasK81/ExploringDigitalHumanities/blob/master/README.md) (as much as possible)| Making sure everything is installed for Day 3|
+| 11:30-12:20 | S/L | [How to Git](https://docs.google.com/presentation/d/1bCdQVbe9Yo5u_kwF-D9_ltx3GUy9Ify9fP0s8mtSAS0/edit?usp=sharing) | Helpful [guide](http://rogerdudler.github.io/git-guide/)|
 |||***Lunch Break (45min)***|
-|13:15-14:30| L | [Linked Data & Microservices in the Humanities](https://docs.google.com/presentation/d/1feFHhix7zTk9EZVZ_RZ1LE9TVUR4GdVw7JeOh7Iy1ZQ/edit?usp=sharing) ||
+| 13:05-13:30 | Extra | [Software Installation](https://github.com/ThomasK81/ExploringDigitalHumanities/blob/master/README.md) (as much as possible)| Making sure everything is installed for Day 3|
+|13:30-14:30| L | [Overview of Programming Languages in DH](https://docs.google.com/presentation/d/178heRiFjxd_iOKnqa9y2U1AMnnvKCJgyyyRJtcctcyg/edit?usp=sharing) ||
 |14:30-15:30| S | Hands on Introduction to Basic Data Structures in R and Go | Needs R installed |
 |||***Short Break (30min)***||
 |16:00-17:00| S | Repeat of Yesterday in R | Needs R installed |
@@ -53,13 +52,15 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 | Wed, Jan 30 | Theme: User Experience & Data Curation ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
-|09:00-10:30| S | Building your own Microservice | Needs Go installed |
+|09:00-10:00| S | Repeat of Yesterday in R | Needs R installed |
 |||***Short Break (30min)***||
-|11:00-12:30| L | Challenges of Data Curation & Corpus Building ||
+|10:30-12:00| L | [Linked Data & Microservices in the Humanities](https://docs.google.com/presentation/d/1feFHhix7zTk9EZVZ_RZ1LE9TVUR4GdVw7JeOh7Iy1ZQ/edit?usp=sharing) ||
 |||***Lunch Break (45min)***|
-|13:15-14:45| S | Building a Reading Environment ||
+|12:45-15:00| S | Building your own Microservice | Needs Go installed |
 |||***Short Break (30min)***||
-|15:15-17:00| S | Extending the Reading Environment with HTML, CSS, and JS ||
+|15:30-17:00| L | [Challenges of Data Curation & Corpus Building](https://docs.google.com/presentation/d/1XjxjGjmONipJlcdpUthx-XxFJADJ7apSYhOopDdvJ9E/edit?usp=sharing) ||
+|~~13:15-14:45~~| S | ~~Building a Reading Environment~~ ||
+|~~15:15-17:00~~| S | ~~Extending the Reading Environment with HTML, CSS, and JS~~ ||
 |||***End of Day 3***||
 |17:30-19:30| Public Lecture (Stout Research Centre, WR12) |[Enabling Digital Scholarship: Tools, Methods, and Infrastructure for Participatory, Interdisciplinary, and Inclusive Research](https://www.victoria.ac.nz/events/2019/01/insights-into-digital-humanities)| optional |
 
