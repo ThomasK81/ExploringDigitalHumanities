@@ -150,7 +150,7 @@
     "newColumnName": "DescXML",
     "columnInsertIndex": 1,
     "baseColumnName": "result - id",
-    "urlExpression": "grel:\"http://api.digitalnz.org/v3/records/\" + value + \".xml?api_key=LUq9-soDzWWhShuy3XhU&fields=description\"",
+    "urlExpression": "grel:\"http://api.digitalnz.org/v3/records/\" + value + \".xml?api_key=[YOUR_API_KEY]&fields=description\"",
     "onError": "set-to-blank",
     "delay": 200,
     "cacheResponses": true,
