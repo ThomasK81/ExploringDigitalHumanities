@@ -32,7 +32,7 @@
   },
   {
     "op": "core/column-addition-by-fetching-urls",
-    "description": "Create column Description at index 1 by fetching URLs based on column result - id using expression grel:\"http://api.digitalnz.org/v3/records/\" + value + \".json?api_key=LUq9-soDzWWhShuy3XhU&fields=description\"",
+    "description": "Create column Description at index 1 by fetching URLs based on column result - id using expression grel:\"http://api.digitalnz.org/v3/records/\" + value + \".json?api_key=[YOUR_API_KEY]&fields=description\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -122,7 +122,7 @@
   },
   {
     "op": "core/column-addition-by-fetching-urls",
-    "description": "Create column DescXML at index 1 by fetching URLs based on column result - id using expression grel:\"http://api.digitalnz.org/v3/records/\" + value + \".xml?api_key=LUq9-soDzWWhShuy3XhU&fields=description\"",
+    "description": "Create column DescXML at index 1 by fetching URLs based on column result - id using expression grel:\"http://api.digitalnz.org/v3/records/\" + value + \".xml?api_key=[YOUR_API_KEY]&fields=description\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
