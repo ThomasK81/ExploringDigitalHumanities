@@ -1,0 +1,302 @@
+[
+  {
+    "op": "core/column-move",
+    "description": "Move column result - id to position 0",
+    "columnName": "result - id",
+    "index": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column File",
+    "columnName": "File"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column result",
+    "columnName": "result"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column result - collection",
+    "columnName": "result - collection"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column result - collection - type",
+    "columnName": "result - collection - type"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column result - id - type",
+    "columnName": "result - id - type"
+  },
+  {
+    "op": "core/column-addition-by-fetching-urls",
+    "description": "Create column Description at index 1 by fetching URLs based on column result - id using expression grel:\"http://api.digitalnz.org/v3/records/\" + value + \".json?api_key=LUq9-soDzWWhShuy3XhU&fields=description\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "result - id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "result - id"
+        }
+      ]
+    },
+    "newColumnName": "Description",
+    "columnInsertIndex": 1,
+    "baseColumnName": "result - id",
+    "urlExpression": "grel:\"http://api.digitalnz.org/v3/records/\" + value + \".json?api_key=LUq9-soDzWWhShuy3XhU&fields=description\"",
+    "onError": "set-to-blank",
+    "delay": 200,
+    "cacheResponses": true,
+    "httpHeadersJson": [
+      {
+        "name": "authorization",
+        "value": ""
+      },
+      {
+        "name": "user-agent",
+        "value": "OpenRefine 3.0 [TRUNK]"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      }
+    ]
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "result - collection - collection",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "result - collection - collection"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DescText at index 2 based on column Description using expression grel:value.parseJson().get(\"record\").get(\"description\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "DescText",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Description",
+    "expression": "grel:value.parseJson().get(\"record\").get(\"description\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition-by-fetching-urls",
+    "description": "Create column DescXML at index 1 by fetching URLs based on column result - id using expression grel:\"http://api.digitalnz.org/v3/records/\" + value + \".xml?api_key=LUq9-soDzWWhShuy3XhU&fields=description\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "result - id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "result - id"
+        }
+      ]
+    },
+    "newColumnName": "DescXML",
+    "columnInsertIndex": 1,
+    "baseColumnName": "result - id",
+    "urlExpression": "grel:\"http://api.digitalnz.org/v3/records/\" + value + \".xml?api_key=LUq9-soDzWWhShuy3XhU&fields=description\"",
+    "onError": "set-to-blank",
+    "delay": 200,
+    "cacheResponses": true,
+    "httpHeadersJson": [
+      {
+        "name": "authorization",
+        "value": ""
+      },
+      {
+        "name": "user-agent",
+        "value": "OpenRefine 3.0 [TRUNK]"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DescXML using expression grel:value.parseHtml().htmlText()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "result - id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "result - id"
+        }
+      ]
+    },
+    "columnName": "DescXML",
+    "expression": "grel:value.parseHtml().htmlText()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DescXML to Description1",
+    "oldColumnName": "DescXML",
+    "newColumnName": "Description1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description to Description_1",
+    "oldColumnName": "Description",
+    "newColumnName": "Description_1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description1 to Description",
+    "oldColumnName": "Description1",
+    "newColumnName": "Description"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Description by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Description",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Quantity:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 2",
+    "columnName": "Description 2"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Description 1 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Description 1",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column result - collection - collection",
+    "columnName": "result - collection - collection",
+    "keyColumnName": "result - id",
+    "separator": "#"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Date at index 6 based on column result - title using expression grel:value.partition(/[0-9]{1,2}\\s\\S+\\s\\d{4}/)[1].replace(\",\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Date",
+    "columnInsertIndex": 6,
+    "baseColumnName": "result - title",
+    "expression": "grel:value.partition(/[0-9]{1,2}\\s\\S+\\s\\d{4}/)[1].replace(\",\", \"\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Wellington at index 2 based on column Description 1 using expression grel:if(value. toLowercase().contains(\"wellington\"), 1, 0)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Wellington",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Description 1",
+    "expression": "grel:if(value. toLowercase().contains(\"wellington\"), 1, 0)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Christchurch at index 2 based on column Description 1 using expression grel:if(value.toLowercase().contains(\"christchurch\"), 1, 0)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Christchurch",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Description 1",
+    "expression": "grel:if(value.toLowercase().contains(\"christchurch\"), 1, 0)",
+    "onError": "set-to-blank"
+  }
+]
