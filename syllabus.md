@@ -67,7 +67,14 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 | Thu, Jan 31 | Theme: Human Languages & Visualisations ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
-|09:00-17:00|  | Details follow ||
+|09:00-10:00| L | Natural Languages Processing ||
+|10:00-10:30| L | Working with High Dimensional Data ||
+|||***Short Break (30min)***||
+|11:00-12:30| L | Topic Modelling & Word Embedding ||
+|||***Lunch Break (45min)***|
+|13:15-14:45| L | NLP I: Analysis ||
+|||***Short Break (30min)***||
+|15:15-17:00| L | NLP II: Analysis & Visualisation ||
 |||***End of Day 4***||
 
 | Fri, Feb 01 | Theme: Relationships & Maps ||||
