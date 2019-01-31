@@ -80,5 +80,14 @@ You will also find an overview of the syllabus [here](http://www.thomaskoentges.
 | Fri, Feb 01 | Theme: Relationships & Maps ||||
 | ------ | ---- | ----- | ---- | ---- |
 | **Time** | **Form** | **Topic** | **Comments**|
-|09:00-17:00|  | Details follow ||
+|09:00-09:30| L | Talking about Data and Projetcs ||
+|09:30-10:30| L | [Working with Geospatial Data](https://docs.google.com/presentation/d/1dnKCaLpHFux2OEM5pzK-FAsPAx6Nej53uKOLGUsx0bg/edit?usp=sharing) ||
+|||***Short Break (30min)***||
+|11:00-12:00| L | [Analysis and Visualisation of Social Networks](https://docs.google.com/presentation/d/1vAWnwnHk1pEVX5ehHgH7wfQJc9D28X3w17qd-w4ruzc/edit?usp=sharing) ||
+|||***Lunch Break (45min)***|
+|12:45-14:00| L | Intro to Gephi & Mapping with R ||
+|14:00| L | Visiting the other group ||
+|||***Short Break (30min)***||
+|15:00-17:00| L | Playing with Data & Asking Thomas all the questions! ||
 |||***End of Day 5***||
+
